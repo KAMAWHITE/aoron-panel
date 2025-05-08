@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { createSize, getSizes, editSize, deleteSize } from '../service/sizeService';
+import { createSize, getSizes, editSize, deleteSize } from '../service/SizeService';
 import { useForm } from 'react-hook-form';
 import { useNavigate } from "react-router-dom";
 import { ToastContainer, toast } from "react-toastify";
